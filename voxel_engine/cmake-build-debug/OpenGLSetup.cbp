@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="OpenGLSetup"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;CMake Files\dependencies\;CMake Files\dependencies\GLFW\;CMake Files\dependencies\GLFW\CMake\;CMake Files\dependencies\GLFW\CMake\modules\;CMake Files\dependencies\GLFW\src\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/GitHub/voxel_terrain_engine/voxel_engine/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\GitHub\voxel_terrain_engine\voxel_engine\cmake-build-debug\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f D:\GitHub\voxel_terrain_engine\voxel_engine\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\GitHub\voxel_terrain_engine\voxel_engine\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\GitHub\voxel_terrain_engine\voxel_engine\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OpenGLSetup">
+				<Option output="D:/GitHub/voxel_terrain_engine/voxel_engine/build/OpenGLSetup.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/GitHub/voxel_terrain_engine/voxel_engine/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="D:/GitHub/voxel_terrain_engine/voxel_engine/include"/>
+					<Add directory="D:/GitHub/voxel_terrain_engine/voxel_engine/GLAD/include"/>
+					<Add directory="D:/GitHub/voxel_terrain_engine/voxel_engine/glm/include"/>
+					<Add directory="D:/GitHub/voxel_terrain_engine/voxel_engine/dependencies/GLFW/include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\GitHub\voxel_terrain_engine\voxel_engine\cmake-build-debug\Makefile VERBOSE=1 OpenGLSetup"/>
+					<CompileFile command="nmake /NOLOGO /f D:\GitHub\voxel_terrain_engine\voxel_engine\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\GitHub\voxel_terrain_engine\voxel_engine\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\GitHub\voxel_terrain_engine\voxel_engine\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OpenGLSetup/fast">
+				<Option output="D:/GitHub/voxel_terrain_engine/voxel_engine/build/OpenGLSetup.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/GitHub/voxel_terrain_engine/voxel_engine/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="D:/GitHub/voxel_terrain_engine/voxel_engine/include"/>
+					<Add directory="D:/GitHub/voxel_terrain_engine/voxel_engine/GLAD/include"/>
+					<Add directory="D:/GitHub/voxel_terrain_engine/voxel_engine/glm/include"/>
+					<Add directory="D:/GitHub/voxel_terrain_engine/voxel_engine/dependencies/GLFW/include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\GitHub\voxel_terrain_engine\voxel_engine\cmake-build-debug\Makefile VERBOSE=1 OpenGLSetup/fast"/>
+					<CompileFile command="nmake /NOLOGO /f D:\GitHub\voxel_terrain_engine\voxel_engine\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\GitHub\voxel_terrain_engine\voxel_engine\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\GitHub\voxel_terrain_engine\voxel_engine\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="D:/GitHub/voxel_terrain_engine/voxel_engine/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\GitHub\voxel_terrain_engine\voxel_engine\cmake-build-debug\Makefile VERBOSE=1 install/local"/>
+					<CompileFile command="nmake /NOLOGO /f D:\GitHub\voxel_terrain_engine\voxel_engine\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\GitHub\voxel_terrain_engine\voxel_engine\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\GitHub\voxel_terrain_engine\voxel_engine\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="D:/GitHub/voxel_terrain_engine/voxel_engine/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\GitHub\voxel_terrain_engine\voxel_engine\cmake-build-debug\Makefile VERBOSE=1 install"/>
+					<CompileFile command="nmake /NOLOGO /f D:\GitHub\voxel_terrain_engine\voxel_engine\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\GitHub\voxel_terrain_engine\voxel_engine\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\GitHub\voxel_terrain_engine\voxel_engine\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/GitHub/voxel_terrain_engine/voxel_engine/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\GitHub\voxel_terrain_engine\voxel_engine\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f D:\GitHub\voxel_terrain_engine\voxel_engine\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\GitHub\voxel_terrain_engine\voxel_engine\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\GitHub\voxel_terrain_engine\voxel_engine\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/GitHub/voxel_terrain_engine/voxel_engine/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\GitHub\voxel_terrain_engine\voxel_engine\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f D:\GitHub\voxel_terrain_engine\voxel_engine\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\GitHub\voxel_terrain_engine\voxel_engine\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\GitHub\voxel_terrain_engine\voxel_engine\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="D:/GitHub/voxel_terrain_engine/voxel_engine/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\GitHub\voxel_terrain_engine\voxel_engine\cmake-build-debug\Makefile VERBOSE=1 list_install_components"/>
+					<CompileFile command="nmake /NOLOGO /f D:\GitHub\voxel_terrain_engine\voxel_engine\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\GitHub\voxel_terrain_engine\voxel_engine\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\GitHub\voxel_terrain_engine\voxel_engine\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uninstall">
+				<Option working_dir="D:/GitHub/voxel_terrain_engine/voxel_engine/cmake-build-debug/dependencies/GLFW"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\GitHub\voxel_terrain_engine\voxel_engine\cmake-build-debug\dependencies\GLFW\Makefile VERBOSE=1 uninstall"/>
+					<CompileFile command="nmake /NOLOGO /f D:\GitHub\voxel_terrain_engine\voxel_engine\cmake-build-debug\dependencies\GLFW\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\GitHub\voxel_terrain_engine\voxel_engine\cmake-build-debug\dependencies\GLFW\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\GitHub\voxel_terrain_engine\voxel_engine\cmake-build-debug\dependencies\GLFW\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw">
+				<Option output="D:/GitHub/voxel_terrain_engine/voxel_engine/cmake-build-debug/dependencies/GLFW/src/glfw3.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/GitHub/voxel_terrain_engine/voxel_engine/cmake-build-debug/dependencies/GLFW/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-D_GLFW_USE_CONFIG_H"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="D:/GitHub/voxel_terrain_engine/voxel_engine/include"/>
+					<Add directory="D:/GitHub/voxel_terrain_engine/voxel_engine/GLAD/include"/>
+					<Add directory="D:/GitHub/voxel_terrain_engine/voxel_engine/glm/include"/>
+					<Add directory="D:/GitHub/voxel_terrain_engine/voxel_engine/dependencies/GLFW/include"/>
+					<Add directory="D:/GitHub/voxel_terrain_engine/voxel_engine/dependencies/GLFW/src"/>
+					<Add directory="D:/GitHub/voxel_terrain_engine/voxel_engine/cmake-build-debug/dependencies/GLFW/src"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\GitHub\voxel_terrain_engine\voxel_engine\cmake-build-debug\dependencies\GLFW\src\Makefile VERBOSE=1 glfw"/>
+					<CompileFile command="nmake /NOLOGO /f D:\GitHub\voxel_terrain_engine\voxel_engine\cmake-build-debug\dependencies\GLFW\src\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\GitHub\voxel_terrain_engine\voxel_engine\cmake-build-debug\dependencies\GLFW\src\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\GitHub\voxel_terrain_engine\voxel_engine\cmake-build-debug\dependencies\GLFW\src\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw/fast">
+				<Option output="D:/GitHub/voxel_terrain_engine/voxel_engine/cmake-build-debug/dependencies/GLFW/src/glfw3.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/GitHub/voxel_terrain_engine/voxel_engine/cmake-build-debug/dependencies/GLFW/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-D_GLFW_USE_CONFIG_H"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="D:/GitHub/voxel_terrain_engine/voxel_engine/include"/>
+					<Add directory="D:/GitHub/voxel_terrain_engine/voxel_engine/GLAD/include"/>
+					<Add directory="D:/GitHub/voxel_terrain_engine/voxel_engine/glm/include"/>
+					<Add directory="D:/GitHub/voxel_terrain_engine/voxel_engine/dependencies/GLFW/include"/>
+					<Add directory="D:/GitHub/voxel_terrain_engine/voxel_engine/dependencies/GLFW/src"/>
+					<Add directory="D:/GitHub/voxel_terrain_engine/voxel_engine/cmake-build-debug/dependencies/GLFW/src"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\GitHub\voxel_terrain_engine\voxel_engine\cmake-build-debug\dependencies\GLFW\src\Makefile VERBOSE=1 glfw/fast"/>
+					<CompileFile command="nmake /NOLOGO /f D:\GitHub\voxel_terrain_engine\voxel_engine\cmake-build-debug\dependencies\GLFW\src\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\GitHub\voxel_terrain_engine\voxel_engine\cmake-build-debug\dependencies\GLFW\src\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\GitHub\voxel_terrain_engine\voxel_engine\cmake-build-debug\dependencies\GLFW\src\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/GitHub/voxel_terrain_engine/voxel_engine/GLAD/src/glad.c">
+			<Option target="OpenGLSetup"/>
+		</Unit>
+		<Unit filename="D:/GitHub/voxel_terrain_engine/voxel_engine/camera.h">
+			<Option target="OpenGLSetup"/>
+		</Unit>
+		<Unit filename="D:/GitHub/voxel_terrain_engine/voxel_engine/cmake-build-debug/dependencies/GLFW/src/glfw_config.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/GitHub/voxel_terrain_engine/voxel_engine/dependencies/GLFW/include/GLFW/glfw3.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/GitHub/voxel_terrain_engine/voxel_engine/dependencies/GLFW/include/GLFW/glfw3native.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/GitHub/voxel_terrain_engine/voxel_engine/dependencies/GLFW/src/context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/GitHub/voxel_terrain_engine/voxel_engine/dependencies/GLFW/src/egl_context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/GitHub/voxel_terrain_engine/voxel_engine/dependencies/GLFW/src/egl_context.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/GitHub/voxel_terrain_engine/voxel_engine/dependencies/GLFW/src/init.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/GitHub/voxel_terrain_engine/voxel_engine/dependencies/GLFW/src/input.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/GitHub/voxel_terrain_engine/voxel_engine/dependencies/GLFW/src/internal.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/GitHub/voxel_terrain_engine/voxel_engine/dependencies/GLFW/src/monitor.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/GitHub/voxel_terrain_engine/voxel_engine/dependencies/GLFW/src/osmesa_context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/GitHub/voxel_terrain_engine/voxel_engine/dependencies/GLFW/src/osmesa_context.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/GitHub/voxel_terrain_engine/voxel_engine/dependencies/GLFW/src/vulkan.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/GitHub/voxel_terrain_engine/voxel_engine/dependencies/GLFW/src/wgl_context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/GitHub/voxel_terrain_engine/voxel_engine/dependencies/GLFW/src/wgl_context.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/GitHub/voxel_terrain_engine/voxel_engine/dependencies/GLFW/src/win32_init.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/GitHub/voxel_terrain_engine/voxel_engine/dependencies/GLFW/src/win32_joystick.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/GitHub/voxel_terrain_engine/voxel_engine/dependencies/GLFW/src/win32_joystick.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/GitHub/voxel_terrain_engine/voxel_engine/dependencies/GLFW/src/win32_monitor.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/GitHub/voxel_terrain_engine/voxel_engine/dependencies/GLFW/src/win32_platform.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/GitHub/voxel_terrain_engine/voxel_engine/dependencies/GLFW/src/win32_thread.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/GitHub/voxel_terrain_engine/voxel_engine/dependencies/GLFW/src/win32_time.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/GitHub/voxel_terrain_engine/voxel_engine/dependencies/GLFW/src/win32_window.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/GitHub/voxel_terrain_engine/voxel_engine/dependencies/GLFW/src/window.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/GitHub/voxel_terrain_engine/voxel_engine/main.cpp">
+			<Option target="OpenGLSetup"/>
+		</Unit>
+		<Unit filename="D:/GitHub/voxel_terrain_engine/voxel_engine/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="D:/GitHub/voxel_terrain_engine/voxel_engine/dependencies/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\dependencies\"/>
+		</Unit>
+		<Unit filename="D:/GitHub/voxel_terrain_engine/voxel_engine/dependencies/GLFW/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\dependencies\GLFW\"/>
+		</Unit>
+		<Unit filename="D:/GitHub/voxel_terrain_engine/voxel_engine/dependencies/GLFW/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\dependencies\GLFW\"/>
+		</Unit>
+		<Unit filename="D:/GitHub/voxel_terrain_engine/voxel_engine/dependencies/GLFW/CMake/modules/FindVulkan.cmake">
+			<Option virtualFolder="CMake Files\dependencies\GLFW\CMake\modules\"/>
+		</Unit>
+		<Unit filename="D:/GitHub/voxel_terrain_engine/voxel_engine/dependencies/GLFW/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\dependencies\GLFW\src\"/>
+		</Unit>
+		<Unit filename="D:/GitHub/voxel_terrain_engine/voxel_engine/dependencies/GLFW/src/glfw3.pc.in">
+			<Option virtualFolder="CMake Files\dependencies\GLFW\src\"/>
+		</Unit>
+		<Unit filename="D:/GitHub/voxel_terrain_engine/voxel_engine/dependencies/GLFW/src/glfw3Config.cmake.in">
+			<Option virtualFolder="CMake Files\dependencies\GLFW\src\"/>
+		</Unit>
+		<Unit filename="D:/GitHub/voxel_terrain_engine/voxel_engine/dependencies/GLFW/src/glfw_config.h.in">
+			<Option virtualFolder="CMake Files\dependencies\GLFW\src\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
