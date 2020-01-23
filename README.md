@@ -1,2 +1,2 @@
 # Voxel Terrain Engine
-Starting to build a voxel terrain engine for infinite random (but realistic) terrain based on an old computer graphics project.
+Experimenting with infinite, procedural voxel terrain generated from 3D noise. Currently testing Godot with Voxel Tools.

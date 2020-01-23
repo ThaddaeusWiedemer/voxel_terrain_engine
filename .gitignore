@@ -4,6 +4,7 @@
 # manually added
 *.avi
 *.zip
+*.exe
 
 # User-specific files
 *.suo
