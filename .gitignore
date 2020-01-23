@@ -5,6 +5,7 @@
 *.avi
 *.zip
 *.exe
+godot/
 
 # User-specific files
 *.suo
